@@ -1,15 +1,13 @@
 {
-  "name": "whatsapp-backend",
+  "name": "whatsapp-venom-bot",
   "version": "1.0.0",
-  "description": "WhatsApp message sender backend using Baileys",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^4.4.0",
-    "@hapi/boom": "^10.0.1",
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "puppeteer": "^24.8.2",
+    "venom-bot": "^5.3.0"
   }
 }
