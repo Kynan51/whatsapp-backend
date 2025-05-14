@@ -32,7 +32,7 @@ Total: Ksh ${total}
 `;
 
   try {
-    await sock.sendMessage("254768856680@s.whatsapp.net", { text: message });
+    await sock.sendMessage("254786778801@s.whatsapp.net", { text: message });
     res.json({ message: "Order sent to seller via WhatsApp!" });
   } catch (error) {
     console.error(error);
