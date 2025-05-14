@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-backend",
+  "version": "1.0.0",
+  "description": "WhatsApp message sender backend using Baileys",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
